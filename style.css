@@ -1,4 +1,46 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  color: #1B1B1B;
+  line-height: 200%;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 80px;
+  border-radius: 24px;
+  margin: 0;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: auto;
+  letter-spacing: 0%;
+  color: #E1624F;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
 img {
   border-radius: 28px;
-  width: 100%;
+  max-width: 100%;
 }
