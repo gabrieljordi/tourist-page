@@ -13,7 +13,6 @@ body {
   box-sizing: border-box;
   border-radius: 24px;
   margin: 88px 80px;
-  /* border: 1px solid red; */
 }
 
 .headline {
@@ -88,15 +87,6 @@ img {
   max-width: 100%;
 }
 
-ol {
-  padding: 0;
-  margin: 0;
-}
-
-ol li h3 {
-  margin: 20px 0 4px;
-}
-
 .list {
   list-style: none;
   counter-reset: item;
@@ -109,6 +99,37 @@ ol li h3 {
 .list h3::before {
   content: counter(item) ". ";
   font-weight: bold;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ol li h3 {
+  margin: 20px 0 4px;
+}
+
+#item-1 {
+  margin-bottom: 48px;
+}
+
+#item-2 {
+  margin-bottom: 48px;
+}
+
+#item-3 {
+  margin-bottom: 48px;
+}
+
+a {
+  color: #0D6EFD;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .history {
@@ -126,25 +147,16 @@ ol li h3 {
   font-weight: bold;
 }
 
-#item-1 {
-  margin-bottom: 48px;
-}
-
-#item-2 {
-  margin-bottom: 48px;
-}
-
-#item-3 {
-  margin-bottom: 48px;
-}
-
 #final-paragraph {
   text-align: center;
   margin-top: 40px;
 }
 
+footer {
+  margin-bottom: 48px;
+}
+
 footer p {
   text-align: center;
   line-height: 150%;
-  letter-spacing: 0;
 }
